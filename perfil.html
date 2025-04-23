@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/perfil.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-lg-2 sidebar p-4">
+                <div class="d-flex align-items-center mb-5">
+                    <h4 class="fw-bold">POLIPROM</h4>
+                </div>
+                <nav class="nav flex-column">
+                    <a class="nav-link" href="perfil.html">Mi Perfil</a>
+                    <a class="nav-link" href="dashboard.html">Inicio</a>
+                    <a class="nav-link" href="certificados.html">certificados</a>
+                    <a class="nav-link" href="progreso.html">Progreso</a>
+                    <a class="nav-link" href="NuevoCurso.html">Cursos Nuevos</a>
+                    <a class="nav-link" href="index.html">Cerrar sesión</a>
+                </nav>
+            </div>
+
+
+            <div class="col-md-9 col-lg-10 p-4">
+
+                <div class="container">
+                    <div class="row align-items-center mb-4">
+                        <div class="col-md-3 text-center">
+                            <img src="img/usuario.jpg" alt="Foto de perfil" class="rounded-circle img-fluid shadow"
+                                style="max-width: 150px;">
+                        </div>
+                        <div class="col-md-9">
+                            <h2 class="fw-bold" id="nombreUsuario"></h2>
+                            <p class="text-muted">Estudiante | PoliProm </p>
+                            <p id="correoUsuario"><strong>Correo:</strong></p>
+                            <p id="telefonoUsuario"><strong>Teléfono:</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Progreso General</h5>
+                                    <p class="card-text">60% completado</p>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" style="width: 60%;">60%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cursos Inscritos</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>✅ HTML & CSS</li>
+                                        <li>✅ Lógica de Programación</li>
+                                        <li>🕐 JavaScript Intermedio</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Datos Académicos</h5>
+                                    <p><strong>Programa:</strong> Ingeniería de Software</p>
+                                    <p><strong>Semestre:</strong> 5°</p>
+                                    <p><strong>Universidad:</strong> Politécnico GranColombiano</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Preferencias de Aprendizaje</h5>
+                                    <p><strong>Modalidad:</strong> Virtual</p>
+                                    <p><strong>Horas de estudio:</strong> 2h al día</p>
+                                    <p><strong>Temas favoritos:</strong> Frontend, Algoritmos, Backend</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/obtenerInformacionUsuario.js"></script>
+    <script src="js/activarClase.js"></script>
+</body>
+
+</html>

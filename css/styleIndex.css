@@ -1,0 +1,120 @@
+body,
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.left-column {
+    width: 50%;
+    background: linear-gradient(135deg, #4957b8 0%, #3498db 100%);
+    color: white;
+    position: relative;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.welcome-text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 50px;
+    font-size: 14px;
+    text-align: center;
+    width: calc(100% - 80px);
+}
+
+.login-form-container {
+    width: 70%;
+}
+
+.login-title {
+    color: #0866C6;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.btn-enter {
+    background-color: #0866C6;
+    border: none;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.login-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-footer {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: #333;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+
+.logo {
+    font-size: 36px;
+    color: #173358;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.logo-img {
+    height: 180px;
+    /* Ajusta según el tamaño de tu imagen */
+    width: auto;
+    vertical-align: middle;
+}
+
+.welcome-container {
+    display: block;
+    justify-content: center;
+}

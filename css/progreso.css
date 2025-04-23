@@ -1,0 +1,30 @@
+.sidebar {
+    background: linear-gradient(135deg, #4957b8 0%, #3498db 100%);
+    color: white;
+    min-height: 100vh;
+}
+
+.sidebar .nav-link {
+    color: white;
+    padding: 15px 10px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
