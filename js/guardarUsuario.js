@@ -19,6 +19,6 @@ document.getElementById("formRegistro").addEventListener("submit", function (e) 
     localStorage.setItem("usuarios", JSON.stringify(usuarios));
 
     alert("Usuario registrado con éxito");
-    window.location.href = "index.html"
+    window.location.href = "../index.html"
 });
 

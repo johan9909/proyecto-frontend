@@ -17,7 +17,7 @@ form.addEventListener('submit', function (e) {
 
     if (usuarioValido) {
         localStorage.setItem('usuarioLogueado', JSON.stringify(usuarioValido));
-        window.location.href = "dashboard.html";
+        window.location.href = "../html/dashboard.html";
     } else {
         alert("Usuario no encontrado, valide las credenciales o registrese primero");
     }
